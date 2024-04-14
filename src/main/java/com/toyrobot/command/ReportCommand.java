@@ -1,11 +1,10 @@
 package com.toyrobot.command;
 
 import com.toyrobot.robot.Robot;
-import com.toyrobot.table.TableService;
 
 public class ReportCommand extends Command {
 
-    private Robot robot;
+    private final Robot robot;
 
     public ReportCommand(Robot robot) {
         this.robot = robot;

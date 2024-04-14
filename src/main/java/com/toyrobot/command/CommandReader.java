@@ -1,6 +1,5 @@
 package com.toyrobot.command;
 
-
 import com.toyrobot.robot.Robot;
 
 import static com.toyrobot.command.CommandKey.LEFT;
@@ -16,17 +15,14 @@ public class CommandReader {
 
     public CommandReader() {}
 
-    public CommandReader(Command placeCommand) {
-        this.placeCommand = placeCommand;
-    }
-
     public boolean read(String line, Robot robot) {
         if (!robot.isOnTable() && !line.contains(PLACE.name())) {
             return false;
         }
 
         if (line.contains(PLACE.name())) {
-            placeCommand.setParameters(extractParameters(line, PLACE.name()));
+            String[] parameters = extractParameters(line, PLACE.name());
+            placeCommand.setParameters(parameters);
             commander.setCommand(placeCommand);
             return commander.invoke();
         } else if (moveCommand != null && line.contains(MOVE.name())) {

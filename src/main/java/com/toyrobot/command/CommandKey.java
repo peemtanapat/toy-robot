@@ -2,7 +2,6 @@ package com.toyrobot.command;
 
 public enum CommandKey {
 
-    // TODO: Validate parameterAmount
     PLACE(3, true, true),
     MOVE(0, false, false),
     LEFT(0, false, false),
@@ -17,6 +16,10 @@ public enum CommandKey {
         this.parameterAmount = parameterAmount;
         this.isInitialCommand = isInitialCommand;
         this.requireParameter = requireParameter;
+    }
+
+    public boolean validateParameterAmount(String[] parameters) {
+        return !isRequireParameter() || parameters.length == getParameterAmount();
     }
 
     public int getParameterAmount() {

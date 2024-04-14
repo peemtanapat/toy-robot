@@ -22,12 +22,6 @@ public class Robot extends Piece implements RobotAction {
         this.y = y;
     }
 
-    public void setNewPosition(Integer x, Integer y, Direction direction) {
-        this.x = x;
-        this.y = y;
-        this.direction = direction;
-    }
-
     public boolean isOnTable() {
         return x != null && y != null;
     }
@@ -96,6 +90,4 @@ public class Robot extends Piece implements RobotAction {
     public void setY(Integer y) {
         this.y = y;
     }
-
-
 }

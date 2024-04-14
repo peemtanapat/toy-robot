@@ -1,8 +1,6 @@
 package com.toyrobot.command;
 
-import com.toyrobot.robot.Direction;
 import com.toyrobot.robot.Robot;
-import com.toyrobot.table.TableService;
 
 public class RightCommand extends Command {
 

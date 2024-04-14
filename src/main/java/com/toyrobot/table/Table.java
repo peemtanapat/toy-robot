@@ -7,8 +7,8 @@ public class Table {
     public static final Integer DEFAULT_DIMENSION_X = 5;
     public static final Integer DEFAULT_DIMENSION_Y = 5;
 
-    private Integer dimensionX;
-    private Integer dimensionY;
+    private final Integer dimensionX;
+    private final Integer dimensionY;
     private final Piece[][] spaces;
 
     public Table() {
@@ -31,10 +31,6 @@ public class Table {
         return dimensionX;
     }
 
-    public void setDimensionX(Integer dimensionX) {
-        this.dimensionX = dimensionX;
-    }
-
     public Integer getDimensionY() {
         return dimensionY;
     }
@@ -53,9 +49,5 @@ public class Table {
 
     public Integer getLeftBorder() {
         return 0;
-    }
-
-    public void setDimensionY(Integer dimensionY) {
-        this.dimensionY = dimensionY;
     }
 }

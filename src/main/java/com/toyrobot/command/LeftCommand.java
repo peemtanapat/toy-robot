@@ -1,7 +1,6 @@
 package com.toyrobot.command;
 
 import com.toyrobot.robot.Robot;
-import com.toyrobot.table.TableService;
 
 public class LeftCommand extends Command {
 

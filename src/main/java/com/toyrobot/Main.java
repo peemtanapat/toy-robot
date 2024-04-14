@@ -9,6 +9,6 @@ public class Main {
         Table table = new Table();
         Robot robot = new Robot();
         ConsoleApplication consoleApplication = new ConsoleApplication(table, robot);
-        consoleApplication.start(); // -> start program for standard input
+        consoleApplication.start();
     }
 }

@@ -4,6 +4,8 @@ import com.toyrobot.robot.Direction;
 import com.toyrobot.robot.Robot;
 import com.toyrobot.table.TableService;
 
+import static com.toyrobot.command.CommandKey.PLACE;
+
 public class PlaceCommand extends Command {
 
     private final Robot robot;
@@ -17,6 +19,10 @@ public class PlaceCommand extends Command {
     @Override
     public boolean execute() {
         try {
+            if (!PLACE.validateParameterAmount(getParameters())) {
+                return false;
+            }
+
             int x = Integer.parseInt(getParameters()[0]);
             int y = Integer.parseInt(getParameters()[1]);
             Direction direction = Direction.valueOf(getParameters()[2]);

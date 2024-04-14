@@ -21,14 +21,13 @@ public class MoveCommand extends Command {
             return false;
         }
 
-//        if (!commandValidator.validateMove())
-
         switch (robot.getDirection()) {
             case NORTH:
                 if (Objects.equals(robot.getY(), tableService.getTable().getTopBorder())) {
                     return false;
                 }
                 tableService.removeObject(robot.getX(), robot.getY());
+
                 int newY = robot.getY() + 1;
                 tableService.placeObject(robot.getX(), newY, robot);
                 break;
@@ -37,6 +36,7 @@ public class MoveCommand extends Command {
                     return false;
                 }
                 tableService.removeObject(robot.getX(), robot.getY());
+
                 newY = robot.getY() - 1;
                 tableService.placeObject(robot.getX(), newY, robot);
                 break;
@@ -45,6 +45,7 @@ public class MoveCommand extends Command {
                     return false;
                 }
                 tableService.removeObject(robot.getX(), robot.getY());
+
                 int newX = robot.getX() + 1;
                 tableService.placeObject(newX, robot.getY(), robot);
                 break;
@@ -53,6 +54,7 @@ public class MoveCommand extends Command {
                     return false;
                 }
                 tableService.removeObject(robot.getX(), robot.getY());
+
                 newX = robot.getX() - 1;
                 tableService.placeObject(newX, robot.getY(), robot);
                 break;
