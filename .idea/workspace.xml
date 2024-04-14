@@ -10,40 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33a589d4-5abf-44fe-b840-ba5d170b6ffc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/CommandKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/CommandReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/Commander.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/LeftCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/MoveCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/PlaceCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/ReportCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/RightCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/piece/Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/platform/ConsoleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/robot/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/robot/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/robot/RobotAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/robot/RobotValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/table/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/table/TableService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/toyrobot/command/IntegrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/toyrobot/command/LeftCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/toyrobot/command/MoveCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/toyrobot/command/PlaceCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/toyrobot/command/ReportCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/toyrobot/command/RightCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/toyrobot/command/TestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/toy_robot_jar/toy-robot.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/toy_robot_jar/toy-robot.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/toyrobot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/CommandKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/CommandKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/CommandReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/CommandReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/LeftCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/LeftCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/MoveCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/MoveCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/PlaceCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/PlaceCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/ReportCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/ReportCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/RightCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/command/RightCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/toyrobot/robot/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/robot/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/toyrobot/robot/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/robot/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/toyrobot/table/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/toyrobot/table/Table.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +46,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -152,7 +135,7 @@
       <recent name="com.toyrobot.table" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.PlaceCommandTest.whenPlaceCommand_validLine_mustBeSuccess">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.toyrobot.Main" />
       <module name="toy-robot" />
@@ -213,7 +196,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTest.integration_validPlaceAtLastLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaceCommandTest.whenPlaceCommand_validLine_mustBeSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="toy-robot" />
       <extension name="coverage">
         <pattern>
@@ -222,8 +205,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.toyrobot.command" />
-      <option name="MAIN_CLASS_NAME" value="com.toyrobot.command.IntegrationTest" />
-      <option name="METHOD_NAME" value="integration_validPlaceAtLastLine" />
+      <option name="MAIN_CLASS_NAME" value="com.toyrobot.command.PlaceCommandTest" />
+      <option name="METHOD_NAME" value="whenPlaceCommand_validLine_mustBeSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -231,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlaceCommandTest.whenPlaceCommand_validLine_mustBeSuccess" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.IntegrationTest.integration_containEmptyLines" />
         <item itemvalue="JUnit.IntegrationTest.integration_noAnyValidPlaceCommand" />
         <item itemvalue="JUnit.IntegrationTest" />
-        <item itemvalue="JUnit.IntegrationTest.integration_validPlaceAtLastLine" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +231,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712933398031</updated>
       <workItem from="1712933399222" duration="22463000" />
-      <workItem from="1713002982115" duration="10913000" />
+      <workItem from="1713002982115" duration="15552000" />
     </task>
     <servers />
   </component>
@@ -287,6 +270,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/toyrobot/command/IntegrationTest.java</url>
           <line>121</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/toyrobot/command/CommandKey.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
