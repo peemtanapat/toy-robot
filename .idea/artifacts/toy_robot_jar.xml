@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="toy-robot:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/toy_robot_jar</output-path>
-    <root id="archive" name="toy-robot.jar">
-      <element id="module-output" name="toy-robot" />
-    </root>
-  </artifact>
-</component>
